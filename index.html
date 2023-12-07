@@ -41,7 +41,7 @@
         <h2>Ejercicio 1</h2>
         <p>Dados dos numeros A y B, escriba el resultado de la siguiente expresión: <strong>(A+B)^2/3</strong></p>
         <h2>Diagrama de flujo</h2>
-        <img src="" alt="">
+        <img src="./imagenes/ejercicio1.png" alt="Ejercicio 1">
         <h2>Código del ejercicio 1</h2>
         <pre data-src="./js/ejercicio1.js"> </pre>
 
@@ -55,7 +55,7 @@
         <p>Realizar un programa que calcule e imprima el promedio de 6 calificaciones que esten
             dentro de un arreglo al igual que imprima la matricula de cada estudiante.</p>
         <h2>Diagrama de flujo</h2>
-        <img src="" alt="">
+        <img src="./imagenes/ejercicio2.png" alt="Ejercicio 2">
         <h2>Código del ejercicio 2</h2>
         <pre data-src="./js/ejercicio2.js"></pre>
 
@@ -69,7 +69,7 @@
         <p>Dado un numero N cualcule el cuadrado de un numero y de ese mismo numero sacar al
             cubo hay que calcularlo y que imprima el resultado. </p>
         <h2>Diagrama de flujo</h2>
-        <img src="" alt="">
+        <img src="./imagenes/ejercicio3.png" alt="Ejercicio 3">
         <h2>Código del ejercicio 3</h2>
         <pre data-src="./js/ejercicio3.js"> </pre>
 
@@ -83,7 +83,7 @@
         <p>Se debe realizar un programa que nos de la distancia teniendo
             dos pares de coordenadas y que imprima la distancia.</p>
         <h2>Diagrama de flujo</h2>
-        <img src="" alt="">
+        <img src="./imagenes/ejercicio4.png" alt="Ejercicio 4">
         <h2>Código del ejercicio 4</h2>
         <pre data-src="./js/ejercicio4.js"></pre>
 
@@ -100,7 +100,7 @@
                 por el cliente, calculen e impriman el cambio que se debe entregar al mismo.
             </p>
             <h2>Diagrama de flujo</h2>
-            <img src="" alt="">
+            <img src="./imagenes/ejercicio5.png" alt="Ejercicio 5">
             <h2>Código del ejercicio 5</h2>
             <pre data-src="./js/ejercicio5.js"></pre>
 
@@ -115,7 +115,7 @@
                 <p>Dada la base y altura de un triángulo, calcule e imprima su superficie.
                 </p>
                 <h2>Diagrama de flujo</h2>
-                <img src="" alt="">
+                <img src="./imagenes/ejercicio6.png" alt="Ejercicio 6">
                 <h2>Código del ejercicio 6</h2>
                 <pre data-src="./js/ejercicio6.js"></pre>
 
@@ -131,7 +131,8 @@
                     del hoyo en uno.
                 </p>
                 <h2>Diagrama de flujo</h2>
-                <img src="" alt="">
+                <img src="./imagenes/ejercicio7.png" alt="Ejercicio 7">
+                <img src="./imagenes/ejercicio7.1.png" alt="Ejercicio 7">
                 <h2>Código del ejercicio 7</h2>
                 <pre data-src="./js/ejercicio7.js"></pre>
 
@@ -148,9 +149,9 @@
                         de la siguiente función:
                     </p>
                     <h2>Diagrama de flujo</h2>
-                    <img src="" alt="">
+                    <img src="./imagenes/ejercicio8.png" alt="Ejercicio 8">
                     <h2>Código del ejercicio 8</h2>
-                    <pre data-src="./js/ejercicio7.js"></pre>
+                    <pre data-src="./js/ejercicio8.js"></pre>
     
                     <h2>Código de test del ejercicio 8</h2>
                     <pre data-src="./js_testing/ejercicio8_test.js"></pre>
@@ -164,21 +165,44 @@
                     </p>
                     <p> Si monto < 500 No hay descuento
                     </p>
-                    <p>Si monto e [500, 1000) 5% de descuento
+                    <p>Si monto esta en [500, 1000) 5% de descuento
                     </p>
-                    <p>Si monto e [1000, 7000) 11% de descuento
+                    <p>Si monto esta en [1000, 7000) 11% de descuento
                     </p>
-                    <p> Si monto e [7000, 15,000) 18% de descuento
+                    <p> Si monto esta en [7000, 15,000) 18% de descuento
                     </p>
                     <p>Si monto >=15,000  25% de descuento</p>
                     <h2>Diagrama de flujo</h2>
-                    <img src="" alt="">
+                    <img src="./imagenes/ejercicio9.png" alt="Ejercicio 9">
                     <h2>Código del ejercicio 9</h2>
                     <pre data-src="./js/ejercicio9.js"></pre>
     
                     <h2>Código de test del ejercicio 9</h2>
                     <pre data-src="./js_testing/ejercicio9_test.js"></pre>
                 </div>
+
+                <div>
+
+                    <h2>Ejercicio 10</h2>
+                    <p> Primero declare el siguiente objeto, el cual contiene informacion acerca de algunos albums musicales,
+                        cada uno identificado con un id unico de 4 digitos.</p>
+                    <p>Su trabajo es programar la función "updateRecords" la cual recibe 4 argumentos(records, id, prop, value).</p>
+
+                        <p>El comportamineto de la función debe ser el siguiente:</p>
+                        <p>1. La función siempre debe regresar el objeto completo "records".</p>
+                        <p>2. Si "value" es una cadena vacia, borrar la propiedad "prop" del  album cuyo id es "id".</p>
+                        <p>3. Si "prop" no es "tracks" y "value" no es una cadena vacia, asignar "value" a la propiedad "prop"
+                            del album cuyo id es "id".</p>
+                        <p>4. Si "prop" es "tracks", y "value" no es una cadena vacia, se debe actualizar el arreglo "tracks" del album.</p>
+                          <p>4.1. En caso de que el album no tenga la propiedad "tracks", esta se debe asignar a un arreglo vacio y después
+                                se debe añadir "value" al final del arreglo </p>
+                                
+                    <h2>Código del ejercicio 10</h2>
+                    <pre data-src="./js/ejercicio10.js"></pre>
+    
+                    <h2>Código de test del ejercicio 10</h2>
+                    <pre data-src="./js_testing/ejercicio10_test.js"></pre>
+                </div>    
     
                 <div>    
 
